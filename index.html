@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241024205923" />
+	<!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?_v=20241024205923"
+  /> -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrap">
+					<!-- MOBILE MENU STARTS-->
+					<div class="header__mobile-menu">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+					<!-- MOBILE MENU ENDS-->
+					<!-- LOGO -->
+					<div class="header__logo header-logo animate__animated animate__bounceInLeft animate__slow">
+						<a href="/" class="header-logo__link">Ae-Site</a>
+						<span class="header-logo__descriptor">SERVER HARDWARE</span>
+					</div>
+
+					<!-- MENU STARTS -->
+					<div class="animate__animated animate__backInDown animate__slow header__menu header-menu">
+						<nav class="header-menu__body">
+							<ul class="header-menu__list">
+								<li class="header-menu__item">
+									<a href="#" class="header-menu__link" data-goto="#catalog">CATALOG</a>
+								</li>
+								<li class="header-menu__item">
+									<a href="#" class="header-menu__link" data-goto="#about">ABOUT</a>
+								</li>
+								<li class="header-menu__item">
+									<a href="#" class="header-menu__link" data-goto="#componetns">Components</a>
+								</li>
+								<li class="header-menu__item">
+									<a href="#" class="header-menu__link" data-goto="#brands">BRANDS</a>
+								</li>
+								<li class="header-menu__item">
+									<a href="#" class="header-menu__link" data-goto="#contacts">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="animate__animated animate__bounceInRight animate__slow header__contacts header-contacts">
+						<div class="header-contacts__wrap">
+							<div class="header-contacts__icon">
+								<span class="_icon-phone"></span>
+							</div>
+							<div class="header-contacts__info">
+								<p class="header-contacts__adress">Dubai, Arab Emirates</p>
+								<a href="tel:97121234567" class="header-contacts__phone">+971 2 123 4567</a>
+							</div>
+						</div>
+					</div>
+					<!-- MENU ENDS -->
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__wrap">
+						<div class="hero__image">
+							<picture><source srcset="img/hero/servers.webp" type="image/webp"><img src="img/hero/servers.png" alt="Servers" /></picture>
+							<div class="hero__image-background"></div>
+						</div>
+						<div class="hero__content hero-content animate__animated animate__zoomIn animate__slow">
+							<h1 class="hero-content__title">Server</h1>
+							<p class="hero-content__subtitle">Hardware</p>
+							<div class="hero-content__text">
+								You can purchase from our company a server, a data storage system, as
+								well as advanced components at good prices
+							</div>
+							<a href="#" class="hero-content__button button" data-popup="#index-popup">Get consulting</a>
+						</div>
+					</div>
+				</div>
+				<div class="hero__background -ibg">
+					<picture><source srcset="img/hero/bgrnd.webp" type="image/webp"><img src="img/hero/bgrnd.jpg" alt="Cover" /></picture>
+				</div>
+			</section>
+
+
+			<!-- FEATURES STARTS-->
+			<section class="features">
+				<div class="features__container">
+					<div class="features__wrap animate-element" data-animation="animate__fadeInUp">
+						<div class="features__column">
+							<div class="features__body features-body">
+								<div class="features-body__icon">
+									<span class="icon _icon-servers"></span>
+								</div>
+								<div class="features-body__info">
+									<h3 class="features-body__title">Large choice</h3>
+									<p class="features-body__text">
+										Wide range and variety of products.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="features__column">
+							<div class="features__body features-body">
+								<div class="features-body__icon">
+									<span class="icon _icon-guarantee"></span>
+								</div>
+								<div class="features-body__info">
+									<h3 class="features-body__title">QUALITY GUARANTEE</h3>
+									<p class="features-body__text">
+										We guarantee the reliable quality of our products.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="features__column">
+							<div class="features__body features-body">
+								<div class="features-body__icon">
+									<span class="icon _icon-price"></span>
+								</div>
+								<div class="features-body__info">
+									<h3 class="features-body__title">Optimal prices</h3>
+									<p class="features-body__text">
+										Affordable prices for all products of our company.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- FEATURES ENDS-->
+			<!-- CATALOG STARTS-->
+			<section class="catalog" id="catalog">
+				<div class="catalog__container">
+					<div class="catalog__wrap">
+						<div class="catalog__header section__header animate-element" data-animation="animate__fadeInDown">
+							<p class="catalog__uptitle section__uptitle">
+								WIDE RANGE OF PRODUCTS
+							</p>
+							<h2 class="catalog__title section__title">PRODUCT CATALOG</h2>
+						</div>
+						<div class="catalog__body animate-element" data-animation="animate__zoomIn">
+							<div class="catalog__card card">
+								<div class="card__img">
+									<picture><source srcset="img/catalog/Dell-PowerEdge-R740.webp" type="image/webp"><img src="img/catalog/Dell-PowerEdge-R740.jpg" alt="Dell-PowerEdge-R740" /></picture>
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">Dell PowerEdge R740</h3>
+									<div class="card__properties">
+										<p class="card__manufacturer manufacturer">
+											<span class="manufacturer__prop">Manufacturer:</span>
+											<span class="manufacturer__value">Dell Technologies</span>
+										</p>
+										<p class="card__type type">
+											<span class="type__prop">Type:</span>
+											<span class="type__value">Rack</span>
+										</p>
+									</div>
+									<p class="card__text">
+										The PowerEdge R740 is a powerful 2U server optimized for a
+										wide range of workloads such as virtualization, artificial
+										intelligence and data analytics. It supports up to two
+										Intel Xeon Scalable processors, up to 3TB of RAM and a
+										large amount of storage, making it suitable for
+										high-performance computing workloads.
+									</p>
+									<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+								</div>
+							</div>
+							<div class="catalog__card card">
+								<div class="card__img">
+									<picture><source srcset="img/catalog/HPE-ProLiant-DL380-Gen10.webp" type="image/webp"><img src="img/catalog/HPE-ProLiant-DL380-Gen10.jpg" alt="HPE-ProLiant-DL380-Gen1" /></picture>
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">HPE-ProLiant-DL380-Gen1</h3>
+									<div class="card__properties">
+										<p class="card__manufacturer manufacturer">
+											<span class="manufacturer__prop">Manufacturer:</span>
+											<span class="manufacturer__value">Hewlett Packard Enterprise (HPE)</span>
+										</p>
+										<p class="card__type type">
+											<span class="type__prop">Type:</span>
+											<span class="type__value">Rack</span>
+										</p>
+									</div>
+									<p class="card__text">
+										The HPE ProLiant DL380 Gen10 is a versatile server
+										designed for use in a variety of workloads, from databases
+										and virtualization to cloud computing. It supports up to
+										two Intel Xeon Scalable processors, up to 6 TB of RAM, and
+										a variety of storage configurations.
+									</p>
+									<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+								</div>
+							</div>
+							<div class="catalog__card card">
+								<div class="card__img">
+									<picture><source srcset="img/catalog/Lenovo-ThinkSystem-SR650.webp" type="image/webp"><img src="img/catalog/Lenovo-ThinkSystem-SR650.jpg" alt="Lenovo-ThinkSystem-SR650.jpg" /></picture>
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">Lenovo-ThinkSystem-SR650</h3>
+									<div class="card__properties">
+										<p class="card__manufacturer manufacturer">
+											<span class="manufacturer__prop">Manufacturer:</span>
+											<span class="manufacturer__value">Lenovo</span>
+										</p>
+										<p class="card__type type">
+											<span class="type__prop">Type:</span>
+											<span class="type__value">Rack</span>
+										</p>
+									</div>
+									<p class="card__text">
+										The ThinkSystem SR650 is a 2U server suitable for
+										mission-critical workloads including cloud computing,
+										virtualization and databases. It supports up to two Intel
+										Xeon Scalable processors and up to 3 TB of RAM, and can be
+										configured with more storage and network adapters.
+									</p>
+									<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+								</div>
+							</div>
+							<div class="catalog__card card">
+								<div class="card__img">
+									<picture><source srcset="img/catalog/Cisco-UCS-C220-M6.webp" type="image/webp"><img src="img/catalog/Cisco-UCS-C220-M6.png" alt="Cisco-UCS-C220-M6" /></picture>
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">Cisco-UCS-C220-M6</h3>
+									<div class="card__properties">
+										<p class="card__manufacturer manufacturer">
+											<span class="manufacturer__prop">Manufacturer:</span>
+											<span class="manufacturer__value">Cisco Systems</span>
+										</p>
+										<p class="card__type type">
+											<span class="type__prop">Type:</span>
+											<span class="type__value">Rack</span>
+										</p>
+									</div>
+									<p class="card__text">
+										The UCS C220 M6 is an entry-level server for
+										general-purpose applications such as virtualization,
+										database and big data. It supports up to two Intel Xeon
+										Scalable processors and up to 8 TB of RAM, with high
+										flexibility in the configuration of network and disk
+										subsystems.
+									</p>
+									<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+								</div>
+							</div>
+							<div class="catalog__card card">
+								<div class="card__img">
+									<picture><source srcset="img/catalog/IBM-Power-Systems-S922.webp" type="image/webp"><img src="img/catalog/IBM-Power-Systems-S922.jpg" alt="IBM-Power-Systems-S92" /></picture>
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">IBM-Power-Systems-S922</h3>
+									<div class="card__properties">
+										<p class="card__manufacturer manufacturer">
+											<span class="manufacturer__prop">Manufacturer:</span>
+											<span class="manufacturer__value">IBM</span>
+										</p>
+										<p class="card__type type">
+											<span class="type__prop">Type:</span>
+											<span class="type__value">Rack</span>
+										</p>
+									</div>
+									<p class="card__text">
+										IBM Power Systems S922 is focused on processing
+										mission-critical data and applications such as databases
+										and analytics. It utilizes IBM POWER9 processors, supports
+										up to 4 TB of RAM, and offers high performance for
+										compute-intensive workloads.
+									</p>
+									<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+								</div>
+							</div>
+							<div class="catalog__card card">
+								<div class="card__img">
+									<picture><source srcset="img/catalog/Supermicro-SuperServer-1029U-TR4.webp" type="image/webp"><img src="img/catalog/Supermicro-SuperServer-1029U-TR4.jpg" alt="Supermicro-SuperServer-1029U-TR4" /></picture>
+								</div>
+								<div class="card__info">
+									<h3 class="card__title">
+										Supermicro-SuperServer-1029U-TR4
+									</h3>
+									<div class="card__properties">
+										<p class="card__manufacturer manufacturer">
+											<span class="manufacturer__prop">Manufacturer:</span>
+											<span class="manufacturer__value">Supermicro</span>
+										</p>
+										<p class="card__type type">
+											<span class="type__prop">Type:</span>
+											<span class="type__value">Rack</span>
+										</p>
+									</div>
+									<p class="card__text">
+										The SuperServer 1029U-TR4 is a 1U server designed for data
+										center, cloud and high-performance computing applications.
+										It supports up to two Intel Xeon Scalable processors, up
+										to 3TB of RAM and a wide range of storage options. These
+										models represent the most sought-after server solutions
+										suitable for a variety of enterprise needs, from small to
+										large enterprises.
+									</p>
+									<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- CATALOG ENDS-->
+			<!-- FORM AND ABOUT STARTS-->
+			<section class="about" id="about">
+				<div class="about__container">
+					<div class="about__wrap">
+						<div class="about__form-column form animate-element" data-animation="animate__fadeInLeft">
+							<div class="form__block">
+								<h3 class="form__title">Apply Now</h3>
+								<p class="form__subtitle">
+									Submit your request and we will call you back shortly to
+									confirm your order.
+								</p>
+
+								<form action="#" class="form" method="post">
+									<ul class="form__list">
+										<li class="form__item">
+											<!-- <label for="name" class="form__label">Your name</label> -->
+											<input class="form__input" type="text" id="name" name="name" value="" placeholder="YOUR NAME *" required />
+										</li>
+										<li class="form__item">
+											<!-- телефон -->
+											<!-- <label class="form__label" for="tel">Your phone</label> -->
+											<input class="form__input mask-phone" type="tel" id="tel" name="tel" placeholder="YOUR PHONE *" required />
+										</li>
+										<li class="form__item">
+											<!-- <label class="form__label" for="textarea"
+                          >Your message</label
+                        > -->
+											<textarea id="textarea" name="textarea" cols="30" rows="4" placeholder="YOUR MESSAGE"></textarea>
+										</li>
+									</ul>
+									<button class="form__button button" type="submit">
+										SEND
+									</button>
+								</form>
+							</div>
+						</div>
+						<div class="about__about-column about-column animate-element" data-animation="animate__fadeInRight">
+							<p class="about-column__uptitle section__uptitle">
+								server hardware sales
+							</p>
+							<h2 class="about-column__title section__title">
+								ABOUT OUR BUSINESS
+							</h2>
+							<div class="about-column__text">
+								The work of a modern firm is unthinkable without computer
+								equipment. equipment. Office equipment - printers, fax
+								machines, computers, consumables - are necessary just for an
+								ordinary day in the office. But this list of necessary
+								equipment for the work the company is not limited. Often in a
+								successful firm. has an entire server, or even several, to
+								which the rest of the employees' computers to which the rest
+								of the employees' computers are connected. To build them, and
+								customization and repair requires a substantial financial
+								infusion. We supply servers and server equipment of well-known
+								brands HP, Dell, IBM. Prior to sale each unit is tested.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about__background -ibg">
+					<picture><source srcset="img/hero/bgrnd.webp" type="image/webp"><img src="img/hero/bgrnd.jpg" alt="Cover" /></picture>
+				</div>
+			</section>
+
+			<!-- FORM AND ABOUT ENDS-->
+
+			<!-- COMPONENTS STARTS-->
+
+			<section class="components" id="componetns">
+				<div class="components__container">
+					<div class="components__wrap">
+						<div class="components__header section__header animate-element" data-animation="animate__fadeInDown">
+							<p class="components__uptitle section__uptitle">
+								Related products
+							</p>
+							<h2 class="components__title section__title">
+								Components catalog
+							</h2>
+						</div>
+						<div class="components__body animate-element" data-animation="animate__zoomIn">
+							<!-- контейнер слайдера -->
+							<div class="swiper my-slider">
+								<!-- Обязательная оболочка -->
+								<div class="swiper-wrapper my-slider__wrapper">
+									<!-- СЛАЙДЫ -->
+
+									<!-- Блок слайда -->
+
+									<div class="swiper-slide my-slider__slide components__card card">
+										<div class="card__img">
+											<picture><source srcset="img/components/raid.webp" type="image/webp"><img src="img/components/raid.jpg" alt="raid" /></picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">Raid controllers</h3>
+											<div class="card__properties">
+												<p class="card__count count">
+													<span class="count__prop">More than:</span>
+													<span class="count__value">2 000 items</span>
+												</p>
+											</div>
+											<p class="card__text">
+												RAID controllers are devices that combine multiple
+												disks into arrays to improve the speed, reliability
+												and fault tolerance of servers. They manage data
+												storage by supporting different RAID levels to
+												optimize performance and data protection.
+											</p>
+											<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+										</div>
+									</div>
+									<div class="swiper-slide my-slider__slide components__card card">
+										<div class="card__img">
+											<picture><source srcset="img/components/memory.webp" type="image/webp"><img src="img/components/memory.jpg" alt="memory" /></picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">RAM</h3>
+											<div class="card__properties">
+												<p class="card__count count">
+													<span class="count__prop">More than:</span>
+													<span class="count__value">10 000 items</span>
+												</p>
+											</div>
+											<p class="card__text">
+												Server RAM is a high-performance memory designed for
+												servers and data centers. It supports error correction
+												correction (ECC), high bandwidth, and the reliability
+												required for stable operation under large data volumes
+												and intensive computational tasks.
+											</p>
+											<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+										</div>
+									</div>
+									<div class="swiper-slide my-slider__slide components__card card">
+										<div class="card__img">
+											<picture><source srcset="img/components/processors.webp" type="image/webp"><img src="img/components/processors.jpg" alt="processors" /></picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">Processors</h3>
+											<div class="card__properties">
+												<p class="card__count count">
+													<span class="count__prop">More than:</span>
+													<span class="count__value">15 000 items</span>
+												</p>
+											</div>
+											<p class="card__text">
+												Server processors are powerful CPUs designed for
+												servers and data centers with multi-threading support,
+												high power efficiency and reliability. They provide
+												stable performance under high load conditions and
+												support security technologies and large memory
+												capacities.
+											</p>
+											<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+										</div>
+									</div>
+									<div class="swiper-slide my-slider__slide components__card card">
+										<div class="card__img">
+											<picture><source srcset="img/components/ssd.webp" type="image/webp"><img src="img/components/ssd.jpg" alt="ssd" /></picture>
+										</div>
+										<div class="card__info">
+											<h3 class="card__title">SSD drive</h3>
+											<div class="card__properties">
+												<p class="card__count count">
+													<span class="count__prop">More than:</span>
+													<span class="count__value">53 000 items</span>
+												</p>
+											</div>
+											<p class="card__text">
+												Server SSDs are high-speed solid state drives designed
+												for servers and data centers. They offer fast data
+												processing, high reliability, durability and high
+												write capacity support, making them ideal for high
+												load and read/write intensive environments.
+											</p>
+											<a href="" class="card__button button" data-popup="#index-popup">Get offer</a>
+										</div>
+									</div>
+								</div>
+
+								<!-- Если нужны кнопки стрелки управления -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+
+								<!-- Если нужна пагинация -->
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="offering" id="brands">
+				<div class="offering__container">
+					<div class="offering__wrap">
+						<div class="offering__header section__header animate-element" data-animation="animate__fadeInDown">
+							<p class="offering__uptitle section__uptitle">We're offering</p>
+							<h2 class="offering__title section__title">
+								Global suppliers and top brands
+							</h2>
+						</div>
+						<div class="offering__body animate-element" data-animation="animate__zoomIn">
+							<div class="offering__img">
+								<picture><source srcset="img/brands/cisco.webp" type="image/webp"><img src="img/brands/cisco.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/dell.webp" type="image/webp"><img src="img/brands/dell.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/emc.webp" type="image/webp"><img src="img/brands/emc.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/emulex.webp" type="image/webp"><img src="img/brands/emulex.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/fujitsu.webp" type="image/webp"><img src="img/brands/fujitsu.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/hpe.webp" type="image/webp"><img src="img/brands/hpe.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/hynix.webp" type="image/webp"><img src="img/brands/hynix.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/ibm.webp" type="image/webp"><img src="img/brands/ibm.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/intel.webp" type="image/webp"><img src="img/brands/intel.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/juniper.webp" type="image/webp"><img src="img/brands/juniper.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/lenovo.webp" type="image/webp"><img src="img/brands/lenovo.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/netapp.webp" type="image/webp"><img src="img/brands/netapp.png" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/qlogic.webp" type="image/webp"><img src="img/brands/qlogic.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/seagate.webp" type="image/webp"><img src="img/brands/seagate.jpg" alt="" /></picture>
+							</div>
+							<div class="offering__img">
+								<picture><source srcset="img/brands/sun.webp" type="image/webp"><img src="img/brands/sun.png" alt="" /></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section__background -ibg">
+					<picture><source srcset="img/hero/bgrnd.webp" type="image/webp"><img src="img/hero/bgrnd.jpg" alt="Cover" /></picture>
+				</div>
+			</section>
+
+			<section class="map" id="contacts">
+				<div class="map__wrap">
+					<div class="map-block">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1104.244364026362!2d55.33510601714939!3d25.2543003390643155!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skg!4v1725366050761!5m2!1sen!2skg"></iframe>
+					</div>
+				</div>
+			</section>
+
+			<!-- COMPONENTS ENDS-->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__wrap">
+					<ul class="footer__nav footer-nav animate-element" data-animation="animate__fadeInBottomRight">
+						<li class="footer-nav__item">
+							<a href="#" data-goto="#catalog">CATALOG</a>
+						</li>
+						<li class="footer-nav__item">
+							<a href="#" data-goto="#about">ABOUT</a>
+						</li>
+						<li class="footer-nav__item">
+							<a href="#" data-goto="#componetns">Components</a>
+						</li>
+						<li class="footer-nav__item">
+							<a href="#" data-goto="#brands">BRANDS</a>
+						</li>
+						<li class="footer-nav__item">
+							<a href="#" data-goto="#contacts">Contacts</a>
+						</li>
+					</ul>
+
+					<div class="footer__contacts footer-contacts animate-element" data-animation="animate__fadeInBottomLeft">
+						<div class="footer-contacts__adress _icon-point">
+							Dubai, Arab Emirates
+						</div>
+						<div class="footer-contacts__phone _icon-phone">
+							<a href="tel:97121234567">+971 2 123 4567</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__bottom animate-element" data-animation="animate__fadeInUp">
+					<p class="footer__copyright">© 2024 AE-SITE</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="index-popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="popup__text">
+					<form action="#" class="form" method="post">
+						<ul class="form__list">
+							<li class="form__item">
+								<!-- <label for="name" class="form__label">Your name</label> -->
+								<input class="form__input" type="text" id="name" name="name" value="" placeholder="YOUR NAME *" required />
+							</li>
+							<li class="form__item">
+								<!-- телефон -->
+								<!-- <label class="form__label" for="tel">Your phone</label> -->
+								<input class="form__input mask-phone" type="tel" id="tel" name="tel" placeholder="YOUR PHONE *" required />
+							</li>
+							<li class="form__item">
+								<!-- <label class="form__label" for="textarea"
+                >Your message</label
+              > -->
+								<textarea id="textarea" name="textarea" cols="30" rows="4" placeholder="YOUR MESSAGE"></textarea>
+							</li>
+						</ul>
+						<button class="form__button button" type="submit">SEND</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20241024205923"></script>
+</body>
+
+</html>
